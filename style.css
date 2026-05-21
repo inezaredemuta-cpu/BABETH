@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(8, 48, 82);
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    background: rgb(0, 191, 255);
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+nav {
+    background: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.hero {
+    background-image: url("images/cpec.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    color: black;
+    margin: 15px;
+    padding: 20px;
+    width: 280px;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-links a{
+    margin:10px;
+    display:inline-block;
+}
+
+.icon-logo{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    transition:0.3s;
+}
+
+.icon-logo:hover{
+    transform:scale(1.2);
+}
+
+
+.about-image {
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+button {
+    padding: 10px;
+    background: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
